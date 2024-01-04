@@ -1,0 +1,85 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #F0F2F5;
+}
+.parent-box{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 80%;
+     margin: 0 auto;
+     height: 100vh;
+}
+.logo-box{
+     width: 500px;
+}
+.logo-box img{
+     width: 235px;
+     margin-bottom: 15px;
+}
+.logo-box p{
+     font-size: 26px;
+     font-weight: normal;
+}
+
+/* Form code start */
+
+.form-box{
+    width: 500px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 1px rgba(72, 72, 72, 0.198);
+}
+form, a{
+     background-color: white;
+}
+input[type='email'], input[type='password']{
+     display: block;
+     background-color: white;
+     margin: 20px auto;
+     border: 1.5px solid rgb(200, 200, 200);
+     width: 400px;
+     padding: 15px 20px;
+     border-radius: 5px;
+     font-size: 15px;
+     font-family: 'Segoe UI';
+}
+.login-btn{
+     border: none;
+     background-color: #1877F2;
+     width: 400px;
+     display: block;
+     margin: 0 auto;
+     padding: 15px 20px;
+     border-radius: 5px;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+}
+.forgot-pass{
+     text-decoration: none;
+     width: 400px;
+     display: block;
+     margin: 0 auto 10px auto;
+     padding: 15px 0;
+     color: #1877F2;
+     font-family: 'Segoe UI';
+}
+hr{
+     border-top: 1px solid rgba(128, 128, 128, 0.614);
+}
+.create-new-acc{
+     text-decoration: none;
+     background-color: #42B72A;
+     display: block;
+     width: 200px;
+     margin: 20px auto;
+     color: white;
+     padding: 15px 0;
+     border-radius: 5px;
+}
